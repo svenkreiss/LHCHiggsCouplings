@@ -1,6 +1,6 @@
 # LHC Higgs Couplings
 
-This package provides an interface to numbers produced by the LHC Higgs Cross Section Working Group (LHC HXSWG) for the Yellow Report 3 (YR3) with convenience functions like linear interpolation in m_H. A snapshot of the files in the HXSWG SVN is included in the module now; with permission from LHC HXSWG. 
+This package provides an interface to numbers produced by the [LHC Higgs Cross Section Working Group (LHC HXSWG)](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CrossSections) for the [Yellow Report 3 (YR3)](http://arxiv.org/abs/1307.1347) with convenience functions like linear interpolation in mH. A snapshot of the files in the HXSWG SVN is included in the module now; with permission from LHC HXSWG. 
 
 
 # Tests
