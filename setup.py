@@ -10,4 +10,16 @@ setup(
     author='Sven Kreiss, Kyle Cranmer',
     author_email='sk@svenkreiss.com',
     install_requires=['numpy'],
+    
+    package_data={
+        "": ["LICENSE"],
+        "LHCHiggsCouplings": [
+            'Higgs-coupling-data/*.txt',
+            'Higgs-coupling-data/sm/br/*.txt',
+            'Higgs-coupling-data/sm/xs/14TeV/*.txt',
+            'Higgs-coupling-data/sm/xs/8TeV/*.txt',
+            'Higgs-coupling-data/sm/xs/7TeV/*.txt',
+        ]
+    },
+    include_package_data=True,
 )
